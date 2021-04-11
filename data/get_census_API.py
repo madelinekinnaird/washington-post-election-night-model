@@ -17,8 +17,20 @@ get_vars = ["NAME",
             "B02001_007E", #other race alone
             "B03003_003E", #hispanic
             "B19013_001E", #median income
-            "C15002B_006E", #Mbachelor or higher
-            "C15002B_011E", #Wbachelor or higher
+            "C15002B_006E", #Mbachelor or higher black
+            "C15002A_004E", #Mbachelor or higher white
+            "C15002C_006E", #Mbachelor or higher native american
+            "C15002D_006E", #Mbachelor or higher aapi
+            "C15002E_006E", #Mbachelor or higher pacific islander
+            "C15002F_006E", #other alone
+            "C15002G_006E", #2 or more races
+            "C15002B_011E", #Wbachelor or higher white
+            "C15002B_011E", #Wbachelor or higher black
+            "C15002C_011E", #Wbachelor or higher native american
+            "C15002D_011E", #Wbachelor or higher aapi
+            "C15002E_006E", #Wbachelor or higher pacific islander
+            "C15002F_011E", #Wbachelor or higher other_race_alone
+            "C15002G_011E", #Wbachelor or higher 2 or more races
     ]
 
 predicates["get"] = ",".join(get_vars)
