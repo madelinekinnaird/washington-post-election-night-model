@@ -12,6 +12,7 @@ get_vars = ["NAME",
             "B01003_001E", #total
             "B01001_002E", #male
             "B01001_026E", #female
+            "B02001_002E", #white
             "B02001_003E", #black
             "B02001_005E", #aapi
             "B02001_007E", #other race alone
@@ -24,11 +25,11 @@ get_vars = ["NAME",
             "C15002E_006E", #Mbachelor or higher pacific islander
             "C15002F_006E", #other alone
             "C15002G_006E", #2 or more races
-            "C15002B_011E", #Wbachelor or higher white
+            "C15002A_011E", #Wbachelor or higher white
             "C15002B_011E", #Wbachelor or higher black
             "C15002C_011E", #Wbachelor or higher native american
             "C15002D_011E", #Wbachelor or higher aapi
-            "C15002E_006E", #Wbachelor or higher pacific islander
+            "C15002E_011E", #Wbachelor or higher pacific islander
             "C15002F_011E", #Wbachelor or higher other_race_alone
             "C15002G_011E", #Wbachelor or higher 2 or more races
     ]
@@ -43,6 +44,7 @@ print(r.text)
 rename_cols = {"B01003_001E": "total",
             "B01001_002E": "male",
             "B01001_026E": "female",
+            "B02001_002E": "white",
             "B02001_003E": "black",
             "B02001_005E": "aapi",
             "B02001_007E": "other_race_alone",
@@ -62,7 +64,7 @@ educational_attainment = [
         "C15002E_006E", #Mbachelor or higher pacific islander
         "C15002F_006E", #other alone
         "C15002G_006E", #2 or more races
-        "C15002B_011E", #Wbachelor or higher white
+        "C15002A_011E", #Wbachelor or higher white
         "C15002B_011E", #Wbachelor or higher black
         "C15002C_011E", #Wbachelor or higher native american
         "C15002D_011E", #Wbachelor or higher aapi
