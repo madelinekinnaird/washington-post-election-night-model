@@ -1,6 +1,6 @@
 # Washington Post's Election Night Model 2020
 
-The purpose of this project is to replicate, explore, and better understand the [Washington Post’s 2020 Election Night model](https://github.com/washingtonpost/2020-election-night-model) and prediction intervals more generally. 
+The purpose of this project is to try and replicate, explore, and better understand the [Washington Post’s 2020 Election Night model](https://github.com/washingtonpost/2020-election-night-model) and prediction intervals more generally. 
 
 I considered three types of models:
 - gradient boost regression with prediction intervals
